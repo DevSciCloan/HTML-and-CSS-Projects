@@ -1,4 +1,4 @@
-p {
+p.styled {
     color: chartreuse;
     background: orange;
     font-weight: bold;
