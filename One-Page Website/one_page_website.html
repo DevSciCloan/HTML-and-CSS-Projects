@@ -3,34 +3,56 @@
   <head>
     <title>Halo Infinite</title>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,1,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/one_page_website.css">
+    <script src="./js/Navbar.js"></script>
   </head>
   <body>
-    <header>
-      <section id="home">
         <!--NAV-->
-        <div>
-          <div>
-            <ul>
+        <div class="wrap">
+          <div id="menucontainer">
+            <ul class="menu">
               <a href="#home" id="link"><li>HOME</li></a>
               <a href="#gallery" id="link"><li>GALLERY</li></a>
               <a href="#events" id="link"><li>EVENTS</li></a>
             </ul>
           </div>
+          <!--NAV ICON-->
+          
         </div>
+        <div id="mini-nav">
+          <button id="navIcon" style="font-size:24px" onclick="displayNav()"><i class="material-icons" id="mat-icon">menu</i></button>
+          <ul id="navIconMenu">
+            <a href="#home" id="link"><li>HOME</li></a>
+            <a href="#gallery" id="link"><li>GALLERY</li></a>
+            <a href="#events" id="link"><li>EVENTS</li></a>
+          </ul>
+        </div>
+        <!--END NAV ICON-->
         <!--END NAV-->
-      </section>
-    </header>
+
+    <!--HOME-->
+    <div id="home">
+      <div class="container">
+        <div class="text-center">
+          <span class="head-main">Halo Infinite</span>
+        </div>
+      </div>
+    </div>
+    <!--END HOME-->
 
     <!--GALLERY-->
-    <section>
-      <div id="gallery">
+    <section id="gallery">
+      <div class="container">
         <h1>Gallery</h1>
-        <div>
+        <div class="flex-container">
           <!--PHOTO-CONTAINER 1-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_1.jpg" alt="Master Chief AR stance" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Halo Infinite Cover Art</p>
               </div>
@@ -39,10 +61,10 @@
           <!--END PHOTO-CONTAINER 1-->
 
           <!--PHOTO-CONTAINER 2-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_2.jpg" alt="Gameplay screenshot" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Halo Infinite Multiplayer</p>
               </div>
@@ -51,10 +73,10 @@
           <!--END PHOTO-CONTAINER 2-->
 
           <!--PHOTO-CONTAINER 3-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_3.jpg" alt="Army of Spartans" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Big Team Battle</p>
               </div>
@@ -63,10 +85,10 @@
           <!--END PHOTO-CONTAINER 3-->
 
           <!--PHOTO-CONTAINER 4-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_4.jpg" alt="Master Chief and Cortana" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Halo Infinite Tech Specs</p>
               </div>
@@ -75,10 +97,10 @@
           <!--END PHOTO-CONTAINER 4-->
 
           <!--PHOTO-CONTAINER 5-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_5.jpeg" alt="Season 1 promo image" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>New Seasons Coming Soon!</p>
               </div>
@@ -87,10 +109,10 @@
           <!--END PHOTO-CONTAINER 5-->
 
           <!--PHOTO-CONTAINER 6-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img src="./img/thumbnail_6.png" alt="Master Chief close up" />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Fan Favorite Master Chief</p>
               </div>
@@ -99,13 +121,13 @@
           <!--END PHOTO-CONTAINER 6-->
 
           <!--PHOTO-CONTAINER 7-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img
                 src="./img/thumbnail_7.jpg"
                 alt="Halo Infinite multiplayer map cover photo"
               />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>New multiplayer maps coming soon!</p>
               </div>
@@ -114,13 +136,13 @@
           <!--END PHOTO-CONTAINER 7-->
 
           <!--PHOTO-CONTAINER 8-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img
                 src="./img/thumbnail_8.jpg"
                 alt="Master Chief carrying downed soldier"
               />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Never leave a soldier behind!</p>
               </div>
@@ -129,13 +151,13 @@
           <!--END PHOTO-CONTAINER 8-->
 
           <!--PHOTO-CONTAINER 9-->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
               <img
                 src="./img/thumbnail_9.jpg"
                 alt="Halo Infinite battle royale release cover photo"
               />
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Battle Royale game mode coming soon!</p>
               </div>
@@ -143,33 +165,39 @@
           </div>
           <!--END PHOTO-CONTAINER 9-->
 
-          <!--INTRO VIDEO-->
-          <div>
-            <div>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube-nocookie.com/embed/Fmdb-KmlzD8"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </div>
-          </div>
-          <!--END INTRO VIDEO-->
+          
         </div>
       </div>
+      
     </section>
     <!--END GALLERY-->
+    <section id="video">
+    <!--INTRO VIDEO-->
+    <div class="container">
+      <div>
+      <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/Fmdb-KmlzD8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </div>
+    </div>
+    <!--END INTRO VIDEO-->
+  </section>
 
     <!--EVENTS-->
-    <section>
-      <div id="events">
-        <div>
+    <section id="events">
+      <div class="container">
+        <div class="heading-padding">
           <h1>Events</h1>
-          <div>
+          <div class="reservation">
             <h2>
               <span>Join us at an upcoming event!</span> <br />Add these to your
               calendar.
@@ -177,14 +205,26 @@
             <!--EVENT LIST-->
             <div>
                 <!--EVENT CONTAINER 1-->
-                <div>
-                    <h4>EVENT_1</h4>
+                <div class="text-center">
+                    <h4>Anaheim Tournament 
+                      <a href="https://halo-esports.fandom.com/wiki/Halo_Championship_Series/2022_Season/North_America/Anaheim" 
+                        class="material-symbols-outlined" 
+                        target="new">
+                        open_in_new
+                      </a>
+                    </h4>
                 </div>
                 <!--END EVENT CONTAINER 1-->
 
                 <!--EVENT CONTAINER 2-->
-                <div>
-                    <h4>EVENT_2</h4>
+                <div class="text-center">
+                    <h4>Halo Convention 
+                      <a href="https://www.halowaypoint.com/news/halowc2022" 
+                      class="material-symbols-outlined" 
+                      target="new">
+                      open_in_new
+                      </a>
+                    </h4>
                 </div>
                 <!--END EVENT CONTAINER 2-->
             </div>
@@ -212,7 +252,19 @@
     <!--END EVENTS-->
 
     <!--FOOTER-->
-    <div>www.haloinfinite.onepage &nbsp;|&nbsp; &copy; 2022</div>
+    <div id="footer">
+      <!-- Add font awesome icons -->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <!-- END font awesome icons -->
+      <div class="footerCopy">
+        <span>www.haloinfinite.onepage &nbsp;|&nbsp; &copy; 2022</span>
+      </div>
+    </div>
     <!--END FOOTER-->
   </body>
 </html>
