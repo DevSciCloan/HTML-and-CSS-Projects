@@ -1,0 +1,28 @@
+.show-time-badge, .show-time-badge:hover {
+    
+    cursor: pointer;
+    /* bottom: 0;
+    position: absolute;
+    right: 0;*/
+}
+
+.card img {
+    height: 132px;
+    width: 200px;
+    margin: 1rem;
+}
+
+.font {
+    font-family: 'Cinzel', serif;
+    text-decoration-line: underline;
+}
+
+#footer {
+    border: outset #17a2b8;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
