@@ -306,11 +306,11 @@
 
           <p>Fill out the form below to receive updates.</p>
           <div>
-            <form action="" method="post">
-              <input class="events" type="text" value="First Name" />
-              <input class="events" type="text" value="Last Name" />
-              <input class="events" type="text" value="Email Address" />
-              <input class="events" type="text" value="Phone Number" />
+            <form name="contact" action="" onsubmit="return validateForm()" method="post">
+              <input class="events" type="text" placeholder="First Name" />
+              <input class="events" type="text" placeholder="Last Name" />
+              <input class="events" type="text" placeholder="Email Address" />
+              <input class="events" type="text" placeholder="Phone Number" name="phone" />
               <div class="form-spacer">
                 <label class="terms">Terms and Conditions</label>
               </div>

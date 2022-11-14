@@ -34,3 +34,11 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+  function validateForm() {
+    let validatePhone = document.forms['contact']['phone'].value;
+    if (validatePhone == '') {
+      alert('You must include your phone number!');
+      return false;
+    }
+  }

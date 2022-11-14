@@ -1,28 +1,41 @@
-.show-time-badge, .show-time-badge:hover {
-    
-    cursor: pointer;
-    /* bottom: 0;
+.show-time-badge,
+.show-time-badge:hover {
+  cursor: pointer;
+  /* bottom: 0;
     position: absolute;
     right: 0;*/
 }
 
 .card img {
-    height: 132px;
-    width: 200px;
-    margin: 1rem;
+  height: 132px;
+  width: 200px;
+  margin: 1rem;
 }
 
 .font {
-    font-family: 'Cinzel', serif;
-    text-decoration-line: underline;
+  font-family: "Cinzel", serif;
+  text-decoration-line: underline;
 }
 
 #footer {
-    border: outset #17a2b8;
-    margin-bottom: 10px;
+  border: outset #17a2b8;
+  margin-bottom: 10px;
 }
 
 section {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
+.text-outline {
+  font-size: 40px;
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.zindex-front {
+    z-index: 1090;
+}
+
+#userMessage {
+    height: 400px;
+}
