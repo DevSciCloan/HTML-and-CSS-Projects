@@ -14,6 +14,7 @@
 - [Movie Theater Site](https://github.com/DevSciCloan/HTML-and-CSS-Projects/blob/main/bootstrap4_project/academy_cinemas.html)
 - [One Page Site](https://github.com/DevSciCloan/HTML-and-CSS-Projects/blob/main/One-Page%20Website/one_page_website.html)
 
+
 ### **Portfolio**
 
 This page is a starter portfolio that utilizes several of the things I learned in Tech Academy's Software Developer HTML & CSS course. This page includes CSS and JavaScript for styling and functionality.
